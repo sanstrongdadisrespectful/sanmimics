@@ -6,5 +6,1147 @@
     <link name="author" content="sanstrongdadisrespectful">
   	<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=yes">
     <title>sanmimics</title>
+
+    <style>
+      .control {
+      width: 1280px;
+      height: 2%;
+      
+      }
+      
+      .control2 {
+      width: 640px;
+      height: 2%;
+      
+      }
+      
+      .control3 {
+      width: 1140px;
+      height: 2%;
+      
+      }
+      
+      .control4 {
+      width: 478px;
+      height: 2%;
+      
+      }
+      
+      .control5 {
+      width: 782px;
+      height: 2%;
+      
+      }
+      
+      .row {
+      display: flex;
+      }	
+      
+      .row2 {
+      display: flex;
+      width: 1004px;
+      }	
+      
+      .new {
+      	border-bottom: 5px solid #ffffff;
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column2 {
+      	flex: 1;
+        display: none; /* Hide columns by default */
+      }
+      
+      /* Create three equal columns that floats next to each other */
+      .column {
+      	flex: 1;
+        display: none; /* Hide columns by default */
+      }
+      
+      /* The "show" class is added to the filtered elements */
+      .show {
+        display: block;
+      }
+      
+      /* Style the buttons */
+      .btn {
+        border: none;
+        outline: none;
+        /*padding: 12px 16px;*/
+        /*background-image: url("./stylebuttonDisable.png");*/
+        /*background-color: white;*/
+        color: orange;
+        cursor: url("./AWJcursorPNT.png"), pointer;
+        font-size: 32px;
+      }
+      
+      /* Add a grey background color on mouse-over */
+      .btn:hover {
+        color: yellow;
+        /*background-image: url("./stylebuttonUnpress.png");*/
+        /*background-color: #ddd;*/
+        cursor: url("./AWJcursorPNT.png"), pointer;
+      }
+      
+      /* Add a dark background color to the active button */
+      .btn.active {
+         /*background-image: url("./stylebuttonPress.png");*/
+        /*background-color: #666;*/
+         color: FFC500;
+         cursor: url("./AWJcursorPNT.png"), pointer;
+         font-size: 42px;
+      }
+    </style>
   </head>
+  <body>
+    <center>			
+		<br>
+			<div class="d">
+				<center>
+				<div id="textContainer">
+					<span class="outline4"><b>A</b>RTW</span> <span class="outline8">O</span> <span class="outline4">RK</span><br>
+					<span class="outline6"><font size="9" color="black" class="small">. . . .: :<b>Damage</b> The Procrastination:. . . .</font></span>
+				</div>
+				</center>
+			</div>
+		<br>
+			<div id="textContainer">
+				<center>
+				<a href="./news.html" title="back 2 life"><img border="0" src="D:\Documents\AWJ\main.png" width="187px" height="85px"></a>
+				</center>
+			</div> 
+			
+			<center>
+				<br>
+				<table BORDER="5" CELLPADDING="20" BGCOLOR="#f0a010" width="1280" cellspacing="15">
+				<tr>
+				<th bgcolor="#c85038" width="722">
+				<div id="textContainer">
+				<span class="outline2"><b>RIGHTHANDED REGIME</b></span>
+				<hr>
+				<span class="outline10">
+				Tha main attraction.
+				<br><br>
+				NOTE: Anything with a border is sumthin I love.
+				<br><br></span>
+				<br><br><br>. . .<br><br>
+				<div id="myBtnContainer">
+				<span id="top" class="outline5" >STYLE SELECT</span><br>
+				<center>
+				<div class = "control">
+				<div class = "row2">
+				<img src="STYLESELECTarrowsflip.gif">
+				  <a class="btn" onclick="filterSelection('all')"><img src="styleAlloff.png" id="styleAll" onmousedown="mouseDownAll()" onmouseup="mouseUpAll()"></a>
+				  <a class="btn" onclick="filterSelection('funky')"><img src="styleFunkyoff.png" id="styleFunky" onmousedown="mouseDownFunky()" onmouseup="mouseUpFunky()"></a>
+				  <a class="btn" onclick="filterSelection('anime')"><img src="styleAnimeoff.png" id="styleAnime" onmousedown="mouseDownAnime()" onmouseup="mouseUpAnime()"></a>
+				  <a class="btn" onclick="filterSelection('megagen')"><img src="styleMegaGenoff.png" id="styleMegaGen" onmousedown="mouseDownMegaGen()" onmouseup="mouseUpMegaGen()"></a>
+				  <a class="btn" onclick="filterSelection('bengus')"><img title="we all kno this is what u came here for, aside from tha tutorial" src="styleBengusoff.png" id="styleBengus" onmousedown="mouseDownBengus()" onmouseup="mouseUpBengus()"></a>
+				  <a class="btn" onclick="filterSelection('90s')"><img src="style90soff.png" id="style90s" onmousedown="mouseDown90s()" onmouseup="mouseUp90s()"></a>
+				  <a class="btn" onclick="filterSelection('future')"><img src="styleFutureoff.png" id="styleFuture" onmousedown="mouseDownFuture()" onmouseup="mouseUpFuture()"></a>
+				<img src="STYLESELECTarrows.gif">
+				</div></div>
+				</center>
+				</div>
+				<br>
+				<br>
+				 <span id="top" class="outline5">YEAR SELECT</span><br>
+				 <font size = "5">
+				 <a class="goto" href="#earlyassyears">earlyass years&nbsp;</a>|
+				 <a class="goto" href="#2017">&nbsp;2017&nbsp;</a>|
+				 <a class="goto" href="#2018">&nbsp;2018&nbsp;</a>|
+				 <a class="goto" href="#2019">&nbsp;2019&nbsp;</a>|
+				 <a class="goto" href="#2020">&nbsp;2020&nbsp;</a>|
+				 <a class="goto" href="#2021">&nbsp;2021&nbsp;</a>
+				 </font>
+				<br>
+				<br>
+				<br>
+				. . .<br><br>
+				<br><br><br>
+				<center>
+					<img id="earlyassyears" src="earlyassyears.png" alt="earlyass years">
+				</center>
+				<br>
+				<a class="goto" href="#top"><font size = "5">△Back 2 tha years△</font></a>
+				<br> <span class="outline10">Lookin @ this artwork like a Pokemon evolution...<br></span><br>
+				<center>
+					<div class = "control4">
+						<div class = "row">
+							<div class = "column megagen">
+								<a href="./ARTWORK/BK3BikeStage.html">
+								<img src="bk3betaSAN.png" title="BK3 Bike Stage">
+								</a>
+							</div>
+							<div class = "column funky">
+								<a href="./ARTWORK/MetalSlugCru.html">
+								<img src="marcoSIRO.png" title="Metal Slug Cru">
+								</a>
+							</div>
+							<div class = "column megagen"> 
+								<a href="./ARTWORK/SonicKOF2000Style.html">
+								<img src="sonic2000SAN.png" title="Sonic KOF 2000 style">
+								</a>
+							</div>
+						</div>
+					</div>
+				</center>
+				<br><br><br><br>
+				<center><img id="2017" src="2017.png" alt="2017"></center>
+				<br>
+				<font size = "5"><a class="goto" href="#top">△Back 2 tha years△</a></font>
+				<br> <span class="outline10">Around tha time where I started studyin Hiroaki's style.<br></span><br>
+				<center>
+				<div class = "control2">
+					<div class = "row">
+						<div class = "column funky"> 
+							<a href="./ARTWORK/BlueBlur.html">
+							<img src="blueblurSIRO.png" title="Blue Blur">
+						  </a>
+						</div>
+						<div class = "column megagen"> 
+							<a href="./ARTWORK/FrowninHog.html">
+							<img src="sonicleanSIRO.png" title="Frownin Hog">
+						  </a>
+						</div>
+						<div class = "column anime">
+							<a href="./ARTWORK/AxelSeesGame.html">
+							<img src="axelglareSIRO.png" title="Axel Sees Game">
+						  </a>
+						</div>
+						<div class = "column anime">
+							<a href="./ARTWORK/SelfPortrait2017.html">
+							<img src="saisiroSIRO.png" title="Niggas Aren't Born W/ Str8 Hair (Unfinished)">
+						  </a>
+						</div>
+					</div>
+				</div>
+				</center>
+				<br><br><br><br>
+				<center><img id="2018" src="2018.png" alt="2018"></center>
+				<br>
+				<font size = "5"><a class="goto" href="#top">△Back 2 tha years△</a></font>
+				<br> <span class="outline10">The start of my online career, and my short-lived SiROSHé brand.</span><br><br>
+				<center>
+				<div class = "control">
+					<div class = "row">
+						<div class = "column megagen">					
+							<a href="./ARTWORK/FacesOfRage.html">
+							<img src="facesSIRO.png" title="Faces of Rage">
+						  </a>
+						</div>
+						
+						<div class = "column anime">					
+							<a href="./ARTWORK/NastyassAnatomy.html">
+							<img src="mvcsiroSIRO.png" title="nastyass anatomy">
+						  </a>
+						</div>
+
+						<div class = "column anime">					
+							<a href="./ARTWORK/TerryBogard.html">
+							<img src="terrySIRO.png" title="Terry Bogard">
+						  </a>
+						</div>
+
+						<div class = "column future">					
+							<a href="./ARTWORK/FightstickOverlay.html">
+							<img src="fightstickSIRO.png" title="Siro Fightstick Overlay">
+						  </a>
+						</div>
+
+						<div class = "column future">					
+							<a href="./ARTWORK/SiroFuture.html">
+							<img src="siroleanlogoSIRO.png" title="Siro Future">
+						  </a>
+						</div>					
+
+						<div class = "column funky">
+							<a href="./ARTWORK/Sop.html">
+							<img src="sopSIRO.png" title="Sop">
+						  </a>
+						</div>
+
+						<div class = "column funky">					
+							<a href="./ARTWORK/KuttyKrita.html">
+							<img src="kuttyogSIRO.png" title="og Kutty Krita">
+						  </a>
+						</div>
+						
+
+						<div class = "column funky">					
+							<a href="./ARTWORK/UYouUwe.html">
+							<img src="uSIRO.png" title="U, You, & Uwe">
+						  </a>
+						</div>	
+					</div>
+				</div>
+				<br>
+				<div class = "control3">
+					<div class = "row">
+					
+						<div class = "column funky">
+							<a href="./ARTWORK/SiroPencil.html">
+							<img src="siropencilSIRO.png" title="Siro Pencil">
+						  </a>
+						</div>
+						
+						<div class = "column anime">					
+							<a href="./ARTWORK/SarahJuice.html">
+							<img src="sarahSIRO.png" title="Sarah (from Juice!)">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/UglyNiggaCentral.html">
+							<img src="niggaSIRO.png" title="lol uglynigga central">
+						  </a>
+						</div> 
+						 
+						<div class = "column funky">
+							<a href="./ARTWORK/TrippinTwoSteps.html">
+							<img src="futuSIRO.png" title="Trippin Two Steps">
+						  </a>
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/pumpump.html">
+							<img src="pumpumpSAN.png" title="PumPumP">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/WildSiro.html">
+							<img src="sirografSIRO.png" title="Wild SiRO">
+						  </a>
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/ChiseledSiro.html">
+							<img src="sirochiselSIRO.png" title="Chiseled SiRO">
+						  </a>
+						</div>
+					</div>
+				</div>
+				</center>
+					<br><br><br><br>
+				<center><img id="2019" src="2019.png" alt="2019"></center>
+				<br>
+				<font size = "5"><a class="goto" href="#top">△Back 2 tha years△</a></font>
+				<br> <span class="outline10">My 1st Windows 10 laptop fucked me up by bricking, so I lost a whole buncha art yall never gon see...unless ya crack my head open.</span><br><br>
+				<center>
+				<div class = "control">
+					<div class = "row">
+						<div class = "column funky">
+							<a href="./ARTWORK/BallaHuh.html">
+							<img src="ballSIRO.png" title="U A Balla, Huh?">
+						  </a>
+						</div>
+						  
+						<div class = "column funky">
+							<a href="./ARTWORK/WaterfallRoyobo.html">
+							<img src="royoboSIRO.png" title="Lemme Waterfall, Royobo?">
+						  </a>
+						</div>
+						
+						<div class = "column funky">					
+							<a href="./ARTWORK/Slammin.html">
+							<img src="jamSIRO.png" title="Slammin!">
+						  </a>
+						</div>
+
+						<div class = "column funky">						  
+							<a href="./ARTWORK/sirosheFiti.html">
+							<img src="sirofitiSIRO.png" title="sirosheFiti">
+						  </a>
+						</div>
+
+						<div class = "column 90s">	
+							<a href="./ARTWORK/yinyangEgo.html">
+							<img src="yinSIRO.png" title="Studded Ego (Yin and Yang)">
+						  </a>				  
+						</div>
+						
+						<div class = "column anime">	
+							<a href="./ARTWORK/Beard.html">
+							<img src="babyfaceSIRO.png" title="Me N Tha Missing\Bold Beard">
+						  </a>	
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/Shiva2019.html">
+							<img src="hoodshivaSIRO.png" title="Hooded\Boring Shiva">
+						  </a>		
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/Rudra2019.html">
+							<img src="rudraSIRO.png" title="Uglyass Rudra">
+						  </a>		
+						</div>
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+						<div class = "column megagen">
+						<span class="outline13" title="This animated image might be intense on your computer">
+							<a href="./ARTWORK/EtonsAve.html">
+							<img src="etonsSIRO.png" title="Etons Ave">
+						  </a>	
+						</span>
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/HueyNuDocks.html">
+							<img src="hueySIRO.png" title="Huey NuDocks">
+						  </a>	
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/AxelStandin2019.html">
+							<img src="axelSIRO.png" title="Axel Standin">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/ElsonHog.html">
+							<img src="elsonhogSIRO.png" title="Elson Hog">
+						  </a>
+						</div>
+
+
+						<div class = "column funky">
+							<a href="./ARTWORK/Not4Resale.html">
+							<img src="sonicSIRO.png" title="Not 4 Resale">
+						  </a>
+						</div>
+						  
+
+						<div class = "column funky">
+							<a href="./ARTWORK/KeepItOnABlindTab.html">
+							<img src="tabSIRO.png" title="Keep It on a Blind Tab">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/AintDelivery.html">
+							<img src="igiornoSIRO.png" title="Ain't Delivery">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/LilManSkate.html">
+							<img src="skateSIRO.png" title="Skate">
+						  </a>
+						</div>
+						
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+						<div class = "column anime">
+							<a href="./ARTWORK/K9999.html">
+							<img src="k9999SIRO.png" title="K9999">
+						  </a>
+						</div>
+					</div>
+				</div>
+				</center>
+				<br><br><br><br>
+				<center><img id="2020" src="2020.png" alt="2020"></center>
+				<br>
+				<font size = "5"><a class="goto" href="#top">△Back 2 tha years△</a></font>
+				<br> <span class="outline10">Year of my fuckin self-growth, unfortunate circumstances otherwise</span><br><br>
+				<center>
+					<div class = "control">
+						<div class = "row">
+							<div class = "column anime">
+								<a href="./ARTWORK/JoeUnfinished.html">
+								<img src="joeUnfSIRO.png" title="Joe (unfinished)">
+							  </a>
+							</div>
+							
+							<div class = "column funky">				
+								<a href="./ARTWORK/AWJ.html">
+								<img src="awjSIRO.png" title="AWJ">
+							  </a>
+							</div>
+							
+							<div class = "column anime">
+								<a href="./ARTWORK/LiveThruFist.html">
+								<img src="ThruFistSIRO.png" title="Live Thru The Fist (sketch)">
+							  </a>
+							</div>
+
+							<div class = "column bengus">
+								<a href="./ARTWORK/SelfTaught.html">
+								<img src="seanSIRO.png" title="Self-Taught">
+							  </a>
+							</div>
+
+							<div class = "column bengus">
+								<a href="./ARTWORK/WakuWaku.html">
+								<img src="arinaSIRO.png" title="It's a WakuWaku Ball, Not An Egg">
+							  </a>
+							</div>
+
+							<div class = "column anime">
+								<a href="./ARTWORK/EverySingleLast.html">
+								<img src="kdashSIRO.png" title="Every Single Last (One of U)">
+							  </a>
+							</div>
+
+							<div class = "column anime">
+								<a href="./ARTWORK/RepriseMaxMan.html">
+								<img src="maxmanSIRO.png" title="Reprise of the Max Man">
+							  </a>
+							</div>
+
+							<div class = "column funky">
+								<a href="./ARTWORK/Smile.html">
+								<img src="smileSIRO.png" title="Smile.">
+							  </a>
+							</div>
+
+
+						</div>
+					</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column funky">
+							<a href="./ARTWORK/teamdark.html">
+							<img src="teamdarkSIRO.png" title="Dark Posse">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/rakim.html">
+							<img src="rakimSIRO.png" title="Rakim Study">
+						  </a>
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/beleftblind.html">
+							<img src="lilithSIRO.png" title="Be Left Blind">
+						  </a>
+						</div>
+
+						<div class = "column 90s">
+							<a href="./ARTWORK/ebon.html">
+							<img src="ebonSIRO.png" title="EBON is a Gift">
+						  </a>
+						</div>
+
+						<div class = "column 90s">
+							<a href="./ARTWORK/baboombap.html">
+							<img src="boombapSIRO.png" title="ba BOOM BAP!">
+						  </a>
+						</div>
+						
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/bluby.html">
+							<img src="bluscrpSIRO.png" title="BluBy">
+						  </a>
+						</div>
+
+						<div class = "column 90s">
+							<a href="./ARTWORK/dope.html">
+							<img src="dopeSIRO.png" title="DOpE.">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/gameofterror.html">
+							<img src="terrorSIRO.png" title="The Game of Terror">
+						  </a>
+						</div>
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column anime">
+							<a href="./ARTWORK/wtfcuh.html">
+							<img src="beatnskateSIRO.png" title="Ayo What the Fuck, Cuh?">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/keeppeace.html">
+							<img src="blockpeaceSIRO.png" title="Keep The...">
+						  </a>
+						</div>
+
+						<div class = "column 90s">
+							<a href="./ARTWORK/blockpeace.html">
+							<img src="mlSIRO.png" title="Stay Supreme W/ The">
+						  </a>
+						</div>
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/bulletstopper.html">
+							<img src="starplatSIRO.png" title="Bullet Stopper">
+						  </a>					  
+						</div>
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/pawsbignuff.html">
+							<img src="feliciaSIRO.png" title="Paws Big Nuff 2 Smother U">
+						  </a>					  
+						</div>
+		
+						<div class = "column bengus">	
+							<a href="./ARTWORK/akiraasuka.html">
+							<img src="akiraSIRO.png" title="Akira, Not Asuka">
+						  </a>											
+						</div>
+		
+						<div class = "column bengus">
+							<a href="./ARTWORK/scarfoverdrive.html">
+							<img src="roseSIRO.png" title="Super Scarf Overdrive">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/theyaight.html">
+							<img src="sonictailsSIRO.png" title="They Aight?">
+						  </a>	
+						</div>
+		
+		
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+		
+						<div class = "column anime">
+							<a href="./ARTWORK/siromfg.html">
+							<img src="siroforumSIRO.png" title="dumb nigga">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/clumsyfoo.html">
+							<img src="danSIRO.png" title="Lookit Dis Clumsy Foo">
+						  </a>	
+						</div>
+					
+						<div class = "column funky">
+							<a href="./ARTWORK/amysketches.html">
+							<img src="idleroseSIRO.png" title="Amy Sketches">
+						  </a>	
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/adamflatcolor.html">
+							<img src="adamSIRO.png" title="Adam (Flat Color)">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/flexinwitout.html">
+							<img src="ristarSIRO.png" title="Flexin Witout Stretchin">
+						  </a>	
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/hifelicia.html">
+							<img src="hifeliciaSIRO.png" title="Hi Felicia">
+						  </a>						  
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/gethisdues.html">
+							<img src="cykesSIRO.png" title="When Will He Get His Dues?">
+						  </a>						  
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/hairtriggeranry.html">
+							<img src="blazecatSIRO.png" title="Hair-Trigger Anry">
+						  </a>	
+						</div>
+
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/nothingeverything.html">
+							<img src="mmzeroSIRO.png" title="Nothing But Everything">
+						  </a>							
+						</div>
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/gatewayheaven.html">
+							<img src="chunliSIRO.png" title="Gateway to Heaven">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/ogrudies.html">
+							<img src="jsrSIRO.png" title="Da Og Rudie 3">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/ericbrakim.html">
+							<img src="erBnRakSIRO.png" title="Eric B & Rakim Study">
+						  </a>
+						</div>
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/doesanybody.html">
+							<img src="scorpSIRO.png" title="Does Anybody Hear Him?">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/icecube.html">
+							<img src="icecubeSIRO.png" title="Ice Cube Study">
+						  </a>
+						</div>
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/kyo2003.html">
+							<img src="kyo03vsSIRO.png" title="BODY GA...">
+						  </a>
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/leavemisty.html">
+							<img src="kasumiSIRO.png" title="Leave You Misty">
+						  </a>
+						</div>
+
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column bengus">
+							<a href="./ARTWORK/readilyjackin.html">
+							<img src="jackaSIRO.png" title="Readily Jackin">
+						  </a>
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/allisee.html">
+							<img src="redSIRO.png" title="All I See Is Red">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/lordofground.html">
+							<img src="wormSIRO.png" title="Lord of Da Ground (N Under)">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/aintfinished.html">
+							<img src="toofSIRO.png" title="I Ain't Finished">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/limedime.html">
+							<img src="limeSIRO.png" title="Lime A Dime, Goddamn!">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/dateye.html">
+							<img src="eyeSIRO.png" title="Dateye">
+						  </a>					  
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/strungsmooth.html">
+							<img src="strungSIRO.png" title="High-Strung, Hella Smooth">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/blazy.html">
+							<img src="blazeySIRO.png" title="Blazy Blaze sketches">
+						  </a>					  
+						</div>
+
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column anime">
+							<a href="./ARTWORK/skateredesign.html">
+							<img src="skatenuSIRO.png" title="Skate Redesign">
+						  </a>	
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/donogals.html">
+							<img src="galsnuSIRO.png" title="Donovan & Galsia Redesign">
+						  </a>	
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/soozgarn.html">
+							<img src="soozSIRO.png" title="Soozie & Garnet Redesign">
+						  </a>		
+						</div>
+
+						<div class = "column anime">
+							<a href="./ARTWORK/elelorena.html">
+							<img src="lorenaSIRO.png" title="Electra & Lorena Redesign">
+						  </a>						
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/knuxsketch.html">
+							<img src="knuxSIRO.png" title="Knux sketch">
+						  </a>		
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/beatsketch.html">
+							<img src="beatSIRO.png" title="Beat sketch">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/buggedout.html">
+							<img src="ristarangrySIRO.png" title="Bugged-Out Twinkle">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/gumsketch.html">
+							<img src="gumSIRO.png" title="Gum sketch">
+						  </a>	
+						</div>
+
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+
+						<div class = "column funky">
+							<a href="./ARTWORK/punkassnigga.html">
+							<img src="forgottenSIRO.png" title="Punkass nigga">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/vectorman.html">
+							<img src="vectorSIRO.png" title="Vectorman sketch">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/ristarsketches.html">
+							<img src="ristarsketchSAN.png" title="Ristar sketches">
+						  </a>	
+						</div>
+		
+						<div class = "column funky">
+							<a href="./ARTWORK/ristarsketches.html">
+							<img src="parappaSIRO.png" title="Spitty Shawty Playa">
+						  </a>					
+						</div>
+		
+						<div class = "column funky">
+							<a href="./ARTWORK/smartlilfreak.html">
+							<img src="tailsSIRO.png" title="Smart Lil' Freak">
+						  </a>	
+						</div>
+		
+						<div class = "column bengus">
+							<a href="./ARTWORK/glarin230p.html">
+							<img src="mvcsirosheSIRO.png" title="Glarin in 230p">
+						  </a>	
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/pnut.html">
+							<img src="pnutSIRO.png" title="P-Nut">
+						  </a>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/funkyfresh.html">
+							<img src="tjeSIRO.png" title="Funky Fresh Mackin Cru">
+						  </a>
+						</div>
+
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">	
+		
+		
+						<div class = "column funky">
+							<a href="./ARTWORK/micgazin.html">
+							<img src="parapfrogSIRO.png" title="Micgazin">
+						  </a>
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/cloudstrife.html">
+							<img src="cloudomgSIRO.png" title="Cloud Strife">
+						  </a>
+						</div>
+		
+						<div class = "column bengus">
+							<a href="./ARTWORK/segali.html">
+							<img src="marioSIRO.png" title="U Kno Who Dis Is">
+						  </a>
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/jurassicsmoke.html">
+							<img src="crunchySIRO.png" title="Jurassic Smoke">
+						  </a>					
+						</div>
+		
+						<div class = "column bengus">
+							<a href="./ARTWORK/makotoyuki.html">
+							<img src="makotoyukiSIRO.png" title="Makoto Yuki">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/batwants2play.html">
+							<img src="batmanSIRO.png" title="If Tha Bat Wants to Play...">
+						  </a>						
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/kenta.html">
+							<img src="kentaSIRO.png" title="Longcoat Warrior">
+						  </a>		
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/funkybug.html">
+							<img src="tempoSIRO.png" title="Jus Who Iz Dis Funky Bug">
+						  </a>		
+						</div>
+						
+
+					</div>
+				</div>
+				<br>
+				<div class = "control4">
+					<div class = "row">
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/aries.html">
+							<img src="AriesOmegaSIRO.png" title="Aries">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/monkpunkfury.html">
+							<img src="garrusSIRO.png" title="Monk Punk Fury">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/smallerthanappear.html">
+							<img src="sachiSIRO.png" title="Smaller Than They Appear">
+						  </a>	
+						</div>
+					</div>
+				</div>
+				</center>
+
+					<br><br><br><br>
+				<center><img id="2021" src="2021.png" alt="2021"></center>
+				<br>
+				<font size = "5"><a class="goto" href="#top">△Back 2 tha years△</a></font>
+				<br> <span class="outline10">Farewell 2 SiROSHé, greetings 2 sanstrong.</span><br><br>
+					
+				<center>
+				<div class = "control">
+					<div class = "row">
+						<div class = "column bengus">
+							<a href="./ARTWORK/getlitup.html">
+							<img src="lunaSIRO.png" title="Get Lit Up">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/peaksharpness.html">
+							<img src="ibukiSIRO.png" title="Peak Sharpness">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/bigbaldboss.html">
+							<img src="donSIRO.png" title="Da Big Bald Boss">
+						  </a>		
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/ajit.html">
+							<img src="ajitomegaSIRO.png" title="Ajit">
+						  </a>	
+						</div>
+						
+						<div class = "column bengus">
+							<a href="./ARTWORK/unhingedmax.html">
+							<img src="eileenSIRO.png" title="Unhinged 2 Tha Max">
+						  </a>	
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/alliseeunshaven.html">
+							<img src="unshavenredSAN.png" title="All I See Is Red Unshaven">
+						  </a>	
+						</div>
+						
+						<div class = "column anime">
+							<a href="./ARTWORK/bitchmadeniggakilla.html">
+							<img src="mcrenSAN.png" title="BITCHMADENIGGAKILLA">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/madpawze.html">
+							<img src="madpawzeSAN.png" title="MADPAWZE">
+						  </a>	
+						</div>
+						
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+						
+						<div class = "column anime">
+						<span class="outline13" title="This image might be intense on your computer">
+							<a href="./ARTWORK/gangstarr.html">
+							<img src="gangstarrSAN.png" title="GANGST☆RR">
+						  </a>	
+						</span>
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/sonicsketches.html">
+							<img src="sonicSAN.png" title="Sonic sketches">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/nigga.html">
+							<img src="2pacSAN.png" title="Neva Ignant, Gettin Goalz Akkomplizhed">
+						  </a>	
+						</div>
+		
+						<div class = "column anime">
+							<a href="./ARTWORK/nomorepain.html">
+							<img src="jotaroSAN.png" title="I Came 2 Bring Tha Pain">
+						  </a>		
+						</div>
+		
+						<div class = "column anime">
+							<a href="./ARTWORK/realmuthaphuckking.html">
+							<img src="eazySAN.png" title="Real Muthaphuckkin G">
+						  </a>						
+						</div>
+						
+						<div class = "column megagen">
+							<a href="./ARTWORK/bk3max.html">
+							<img src="maxSAN.png" title="BKIII Max Hoax">
+						  </a>	
+						</div>
+				
+						<div class = "column anime">
+							<a href="./ARTWORK/punkazznigga.html">
+							<img src="murataSAN.png" title="PUNKAZZNIGGA">
+						  </a>						
+						</div>
+
+						<div class = "column funky">
+							<a href="./ARTWORK/launch.html">
+							<img src="LaunchSAN.png" title="LAUNCH.">
+						  </a>		
+						</div>
+						
+
+					</div>
+				</div>
+				<br>
+				<div class = "control">
+					<div class = "row">
+				
+						<div class = "column funky">
+							<a href="./ARTWORK/believedisnigga.html">
+							<img src="LeavinSAN.png" title="Do U Believe Dis Nigga?">
+						  </a>	
+						</div>
+				
+						<div class = "column anime">
+							<a href="./ARTWORK/sanwillreturn.html">
+							<img src="byebyeSAN.png" title="SANSTRONG WILL RETURN">
+						  </a>	
+						</div>
+						
+						<div class = "column funky">
+							<a href="./ARTWORK/whoishe.html">
+							<img src="whoisheSAN.png" title="Who Is He?">
+						  </a>	
+						</div>
+				
+						<div class = "column funky">
+							<a href="./ARTWORK/worldcircuit.html">
+							<img src="worldcircuitSAN.png" title="World-Circuit Work-It, Perfect...">
+						  </a>	
+						</div>
+						
+						<div class = "new">
+						<div class = "column funky">
+							<a href="./ARTWORK/whatisitallabout.html">
+							<img src="notawasteSAN.png" title="What Is It All About?">
+						  </a>	
+						</div>
+						</div>
+							
+					</div>
+				</div>
+				</center>
+					<br><br><br><br><br><br><br><br>
+					<br>
+					Peace.
+					<br>
+					----<b>sanstrong out</b></span>
+				</div>
+				</th>
+				</tr>
+				</table>
+				</center>
+				<br>
+    </center>
+  </body>
+
+
+  
 </html>
